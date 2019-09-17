@@ -3,8 +3,7 @@ Diese implementierung basiert sich auf dem Buch von Mattieu Deru und Alassane Nd
 
 ## Ergebnis varinate 1 
  
-![alt text][logo]
-[logo]: iris-Klassifikation_ML/ergebnis/plot_of_loss_values.png "Bild für die erste Variante"
+![alt text][logo] https://github.com/romeolandry/iris-Klassifikation_ML/blob/master/ergebnis/plot_of_loss_values.png "Bild für die erste Variante"
 
 ## Ergebnis varinate 2
  
