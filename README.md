@@ -3,11 +3,11 @@ Diese implementierung basiert sich auf dem Buch von Mattieu Deru und Alassane Nd
 
 ## Ergebnis varinate 1 
  
-![alt text][logo] https://github.com/romeolandry/iris-Klassifikation_ML/blob/master/ergebnis/plot_of_loss_values.png "Bild für die erste Variante"
+![alt text](https://github.com/romeolandry/iris-Klassifikation_ML/blob/master/ergebnis/plot_of_loss_values.png "Bild für die erste Variante")
 
 ## Ergebnis varinate 2
  
-![alt text][logo] https://github.com/romeolandry/iris-Klassifikation_ML/blob/master/ergebnis/plot_of_loss_values2.png "Bild für die zweite Variante"
+![alt text](https://github.com/romeolandry/iris-Klassifikation_ML/blob/master/ergebnis/plot_of_loss_values2.png "Bild für die zweite Variante")
 
 
 
