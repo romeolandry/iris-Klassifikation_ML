@@ -12,7 +12,7 @@ get_data = LoadData.LoadData('/data/iris.csv',matching_classe)
 X_train,X_test,y_train,y_test = get_data.create_train_test(0.2)
 
 # model vorbereiten
-classifier = Model.Model((5,3),'tanh','adam',500, 10,True)
+classifier = Model.Model((10,),'tanh','adam',350, 10,True)
 mlp = classifier.init_mlp_model()
 
 # training des Models
@@ -45,7 +45,7 @@ print(list_prediction)
 
 loss_values = mlp.loss_curve_
 plt.plot(loss_values)
-plt.savefig('./ergebnis/plot_of_loss_values2.png')
+plt.savefig('./ergebnis/plot_of_loss_values.png')
 plt.show()
 
 
