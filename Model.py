@@ -1,4 +1,4 @@
-from sklearn.model_selection import MLPClassifier
+from sklearn.neural_network import MLPClassifier
 
 class Model:
 
@@ -11,5 +11,9 @@ class Model:
         self.__verbose = verbose
     
     def init_mlp_model (self):
-        return MLPClassifier(hidden_layer_sizes = (self.__hiddenLayer,), activation = self.__activation, solver = self.__gradientVerfahen, max_iter = self.__max_iter, batch_size = self.__batch_size, verbose = self.__verbose)
+        try:
+            mlp = MLPClassifier(hidden_layer_sizes = self.__hiddenLayer, activation = self.__activation, solver = self.__gradientVerfahen, max_iter = self.__max_iter, batch_size = self.__batch_size, verbose = self.__verbose)
+        except:
+            print("check if you are hidden is a tupel")
+        return mlp
 
